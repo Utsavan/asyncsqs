@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "asyncsqs"
+version = "0.1.0"
+description = ""
+authors = ["Utsav Nagar <utsavan@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiobotocore = "^2.4.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.0.227"
+pytest = "^7.2.1"
+pre-commit = "^2.21.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
